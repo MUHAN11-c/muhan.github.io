@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>muhan</title>
+  
+  
+  <link href="http://muhanya.top/atom.xml" rel="self"/>
+  
+  <link href="http://muhanya.top/"/>
+  <updated>2022-02-13T05:15:31.380Z</updated>
+  <id>http://muhanya.top/</id>
+  
+  <author>
+    <name>wjz</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>fish百度云</title>
+    <link href="http://muhanya.top/2022/02/13/fish/fi/bai/bai/"/>
+    <id>http://muhanya.top/2022/02/13/fish/fi/bai/bai/</id>
+    <published>2022-02-13T12:45:48.000Z</published>
+    <updated>2022-02-13T05:15:31.380Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>鱼相关<br />链接:<span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMVFiRFZQOUQ4LXNUcGcxTENhNEVHWFE=">https://pan.baidu.com/s/1QbDVP9D8-sTpg1LCa4EGXQ</span> <br />提取码：11w8</p></blockquote><blockquote><p>oled 使用   <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNDc3NTU2L2FydGljbGUvZGV0YWlscy8xMTIzMTExODElNUNu">https://blog.csdn.net/qq_41477556/article/details/112311181\n</span></p></blockquote><blockquote><p>多关节机器鱼<br />链接:<span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMTVkdWhNRFdReE1TcXZ4TzI3UVc1ekE=">https://pan.baidu.com/s/15duhMDWQxMSqvxO27QW5zA</span> <br />提取码:ou53</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;鱼相关&lt;br /&gt;
+链接:&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMVFiRFZQOUQ4LXNUcGcxTENhNEVHWFE=&quot;&gt;https://pan.ba</summary>
+      
+    
+    
+    
+    <category term="水中机器鱼" scheme="http://muhanya.top/categories/fish/"/>
+    
+    <category term="FISH" scheme="http://muhanya.top/categories/fish/fi/"/>
+    
+    <category term="fish百度云" scheme="http://muhanya.top/categories/fish/fi/bai/"/>
+    
+    
+    <category term="fish" scheme="http://muhanya.top/tags/fish/"/>
+    
+    <category term="教程" scheme="http://muhanya.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>matlab</title>
+    <link href="http://muhanya.top/2022/02/13/matlab/anzh/doc/doc/"/>
+    <id>http://muhanya.top/2022/02/13/matlab/anzh/doc/doc/</id>
+    <published>2022-02-13T12:45:48.000Z</published>
+    <updated>2022-02-13T05:09:08.774Z</updated>
+    
+    <content type="html"><![CDATA[<p>下载连接：</p><p><span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUdaWm5EUTNRU3QwQWhab1ozTEFYMkE=">https://pan.baidu.com/s/1GZZnDQ3QSt0AhZoZ3LAX2A</span></p><p>提取码：5ko2</p><h3 id="1挂载iso和安装"><a class="anchor" href="#1挂载iso和安装">#</a> 1. 挂载 ISO 和安装：</h3><blockquote><p>sudo mkdir matlab<br />sudo mount -t auto -o loop /home/ren/ 下载 / Matlab98R2020a_Lin64.iso ~/matlab<br />~/matlab/install</p></blockquote><h3 id="2在gui下安装并解除挂载"><a class="anchor" href="#2在gui下安装并解除挂载">#</a> 2. 在 GUI 下安装并解除挂载：</h3><blockquote><p>右上角用已有密钥安装， <code>09806-07443-53955-64350-21751-41297</code> ，下一步</p><p>密钥文件在 Crack 文件夹，选择其中的 license_standalone.lic 许可证文件，点击下一步</p><p>选择安装位置，在主目录下新建一个安装文件夹 Matlab,</p><p>更改安装路径到 /home/usr-name/Matlab</p><p>下一步即可，全部安装.</p><p><code>sudo umount ~/matlab</code>   #解除挂载</p></blockquote><h3 id="3crack"><a class="anchor" href="#3crack">#</a> 3.Crack：</h3><blockquote><p>将 Crack 文件夹中 <span class="exturl" data-url="aHR0cDovL2xpYm13bG1ncmltcGwuc28=">libmwlmgrimpl.so</span> 复制到　/home/usr-name/bin/glnxa64/matlab_startup_plugins/lmgrimpl/ 中覆盖<br />（可能需要）将 license_standalone.lic 放到 /usr/local/Polyspace/R2020a/licenses</p></blockquote><h3 id="4添加环境变量"><a class="anchor" href="#4添加环境变量">#</a> 4. 添加环境变量：</h3><p>sudo gedit ~/.bashrc，在后面加上：</p><p><code>**alias matlab='/usr/local/Polyspace/R2020a/bin/matlab'**</code></p><p>sudo gedit /etc/bash.bashrc，在后面添加</p><p><code>**export PATH=/usr/local/Polyspace/R2020a/bin$&#123;PATH:+:$&#123;PATH&#125;&#125;**</code></p><p>最后 <code>**source ~/.bashrc**</code>  使其生效</p><p>最后提升 matlab 的权限：</p><p><strong> <code>sudo chmod -R 777 /usr/local/Polyspace/R2020a</code> </strong></p><p><strong> <code>sudo chmod a+w -R ~/.matlab</code> </strong></p><p>然后转到 / Matlab/bin 下，右键打开终端，输入命令：</p><p><code>**./matlab</code> ** 即可打开 matlab</p><h3 id="5创建快捷方式"><a class="anchor" href="#5创建快捷方式">#</a> 5. 创建快捷方式</h3><p>为了更便捷的打开 matlab, 我们可以创建其快捷方式：</p><p><strong>首先创建一个新的快捷方式：</strong></p><p><code>**sudo touch /usr/share/applications/matlab.desktop**</code></p><p><strong>编辑快捷方式</strong></p><p><code>**sudo gedit /usr/share/applications/matlab.desktop**</code></p><p>输入以下内容：使用时要删掉注释</p><blockquote><p>#!/usr/bin/env xdg-open</p><p>[Desktop Entry]<br />Type=Application<br />Terminal=false<br />Exec=/home/usr-name/Matlab/bin/matlab -desktop   //matlab 路径 使用时删掉注释<br /> Name=MATLAB<br />Icon=/home/usr-name/Matlab/toolbox/shared/dastudio/resources/MatlabIcon.png// 图标<br /> Comment=Scientific computing environment</p></blockquote><p>保存后在菜单中就发现了应用图标，双击打开即可<br />参考：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcxMzIyNC9hcnRpY2xlL2RldGFpbHMvMTE3NTQ4MzU1">https://blog.csdn.net/weixin_43713224/article/details/117548355</span></p><p><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLjUxY3RvLmNvbS9hanhpYW9jYWluaWFvLzIzMDc2MTg=">https://blog.51cto.com/ajxiaocainiao/2307618</span></p><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuamI1MS5uZXQvYXJ0aWNsZS8xMzE2NDkuaHRt">https://www.jb51.net/article/131649.htm</span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;下载连接：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUdaWm5EUTNRU3QwQWhab1ozTEFYMkE=&quot;&gt;https://pan.baidu.com/s/1GZ</summary>
+      
+    
+    
+    
+    <category term="matlab安装" scheme="http://muhanya.top/categories/matlab/"/>
+    
+    <category term="安装" scheme="http://muhanya.top/categories/matlab/anzh/"/>
+    
+    <category term="详情" scheme="http://muhanya.top/categories/matlab/anzh/doc/"/>
+    
+    
+    <category term="教程" scheme="http://muhanya.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="matlab" scheme="http://muhanya.top/tags/matlab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>链接</title>
+    <link href="http://muhanya.top/2022/02/13/wur/zh/lik/lik/"/>
+    <id>http://muhanya.top/2022/02/13/wur/zh/lik/lik/</id>
+    <published>2022-02-13T12:45:48.000Z</published>
+    <updated>2022-02-13T05:17:22.396Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>px4<br /><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkxNzM5MC9jYXRlZ29yeV8xMDAzNzUyMy5odG1s">https://blog.csdn.net/weixin_44917390/category_10037523.html</span></p></blockquote><blockquote><p>mavros<br /><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01ha2VyX3BhY2UvYXJ0aWNsZS9kZXRhaWxzLzExODYxMTg3Nw==">https://blog.csdn.net/Maker_pace/article/details/118611877</span><br /><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01ha2VyX3BhY2UvYXJ0aWNsZS9kZXRhaWxzLzExODY1MTEzOQ==">https://blog.csdn.net/Maker_pace/article/details/118651139</span><br /><span class="exturl" data-url="aHR0cHM6Ly9hbW92LWFudXUuYmxvZy5jc2RuLm5ldC9hcnRpY2xlL2RldGFpbHMvMTE4NjYyMzAw">https://amov-anuu.blog.csdn.net/article/details/118662300</span></p></blockquote><blockquote><p>volans<br /><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTg2OTc2Mz90eXBlPWJsb2c=">https://blog.csdn.net/weixin_41869763?type=blog</span></p></blockquote><blockquote><p>yolo 相关<br /><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzE1MzkwMTMzL2FydGljbGUvZGV0YWlscy8xMDY1MDc3NDk="> https://blog.csdn.net/qq_15390133/article/details/106507749</span></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;px4&lt;br /&gt;
+&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkxNzM5MC9jYXRlZ29yeV8xMDAzNzUyMy5odG1s&quot;&gt;h</summary>
+      
+    
+    
+    
+    <category term="无人机" scheme="http://muhanya.top/categories/wur/"/>
+    
+    <category term="整合" scheme="http://muhanya.top/categories/wur/zh/"/>
+    
+    <category term="链接" scheme="http://muhanya.top/categories/wur/zh/lik/"/>
+    
+    
+    <category term="教程" scheme="http://muhanya.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="无人机" scheme="http://muhanya.top/tags/%E6%97%A0%E4%BA%BA%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用网站</title>
+    <link href="http://muhanya.top/2022/02/13/sanda/xiao/ss/ss/"/>
+    <id>http://muhanya.top/2022/02/13/sanda/xiao/ss/ss/</id>
+    <published>2022-02-13T12:45:48.000Z</published>
+    <updated>2022-02-13T05:09:16.842Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info"><p>自动安全上报  <span class="exturl" data-url="aHR0cHM6Ly9kb25nbGl1Lm9ubGluZS9hZGQ=">https://dongliu.online/add</span></p></div><div class="note info"><p>三大教务处   <span class="exturl" data-url="aHR0cHM6Ly9zeGR4andjLmN0Z3UuZWR1LmNuL2luZGV4LmpzcA==">https://sxdxjwc.ctgu.edu.cn/index.jsp</span><br /> 选课系统     <span class="exturl" data-url="aHR0cDovL2p3eGsuY3RndS5lZHUuY24veHN4ay9wcm9maWxlL2luZGV4Lmh0bWw=">http://jwxk.ctgu.edu.cn/xsxk/profile/index.html</span></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note info&quot;&gt;
+&lt;p&gt;自动安全上报  &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9kb25nbGl1Lm9ubGluZS9hZGQ=&quot;&gt;https://dongliu.online/add&lt;/span&gt;&lt;/p</summary>
+      
+    
+    
+    
+    <category term="三大相关" scheme="http://muhanya.top/categories/sanda/"/>
+    
+    <category term="各类校内" scheme="http://muhanya.top/categories/sanda/xiao/"/>
+    
+    <category term="常用网站" scheme="http://muhanya.top/categories/sanda/xiao/ss/"/>
+    
+    
+    <category term="三峡大学" scheme="http://muhanya.top/tags/%E4%B8%89%E5%B3%A1%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="资源" scheme="http://muhanya.top/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ROS百度云资料</title>
+    <link href="http://muhanya.top/2022/02/13/xit/ros/bbb/bbb/"/>
+    <id>http://muhanya.top/2022/02/13/xit/ros/bbb/bbb/</id>
+    <published>2022-02-13T12:45:48.000Z</published>
+    <updated>2022-02-13T05:15:10.433Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><span class="exturl" data-url="aHR0cHM6Ly9zaGFyZS53ZWl5dW4uY29tL2w4UkxoTE8x">https://share.weiyun.com/l8RLhLO1</span><br /> 密码:kaqd7y</p></blockquote><blockquote><p>链接:<span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMVdYNERBd1NMcWF5b3c1aDMtTlVZM2c=">https://pan.baidu.com/s/1WX4DAwSLqayow5h3-NUY3g</span> <br />提取码:v592</p></blockquote><blockquote><p><span class="exturl" data-url="aHR0cHM6Ly9zaGFyZS53ZWl5dW4uY29tL2hDRHMzOVZ5">https://share.weiyun.com/hCDs39Vy</span><br /> 密码:j122an</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9zaGFyZS53ZWl5dW4uY29tL2w4UkxoTE8x&quot;&gt;https://share.weiyun.com/l8RLhLO1&lt;/span&gt;&lt;br /&gt;
+</summary>
+      
+    
+    
+    
+    <category term="机器人操作系统" scheme="http://muhanya.top/categories/xit/"/>
+    
+    <category term="ROS" scheme="http://muhanya.top/categories/xit/ros/"/>
+    
+    <category term="ROS百度云资料" scheme="http://muhanya.top/categories/xit/ros/bbb/"/>
+    
+    
+    <category term="教程" scheme="http://muhanya.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="ros" scheme="http://muhanya.top/tags/ros/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ROS维基</title>
+    <link href="http://muhanya.top/2020/08/13/xit/ros/roswiki/roswiki/"/>
+    <id>http://muhanya.top/2020/08/13/xit/ros/roswiki/roswiki/</id>
+    <published>2020-08-13T12:45:48.000Z</published>
+    <updated>2022-02-13T04:56:24.465Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info"><p>ROS 维基   <span class="exturl" data-url="aHR0cDovL3dpa2kucm9zLm9yZy9jbg==">http://wiki.ros.org/cn</span></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note info&quot;&gt;
+&lt;p&gt;ROS 维基   &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cDovL3dpa2kucm9zLm9yZy9jbg==&quot;&gt;http://wiki.ros.org/cn&lt;/span&gt;&lt;/p&gt;
+&lt;/div</summary>
+      
+    
+    
+    
+    <category term="机器人操作系统" scheme="http://muhanya.top/categories/xit/"/>
+    
+    <category term="ROS" scheme="http://muhanya.top/categories/xit/ros/"/>
+    
+    <category term="ROS维基" scheme="http://muhanya.top/categories/xit/ros/roswiki/"/>
+    
+    
+    <category term="教程" scheme="http://muhanya.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="http://muhanya.top/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
